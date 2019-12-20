@@ -1,0 +1,9 @@
+<div class="card" *ngFor='let user of users'>
+  <img src="../../assets/silhoutte.jpg" alt="User" style="width:100%">
+  <h1 class="title">{{user.firstName}} {{user.lastName}}</h1>
+  <h3 class="email">{{user.userId}}</h3>
+  <p>Gender: {{user.gender}}  |  Age: {{user.age}}</p>
+</div>
+
+
+
